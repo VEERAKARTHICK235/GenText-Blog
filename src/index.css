@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+  background: #007bff;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.blog-card {
+  background: #ffffff;
+  margin: 20px 0;
+  padding: 15px;
+  border-left: 6px solid #007bff;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.blog-card h4 {
+  margin: 0 0 10px;
+}
+
+.blog-card small {
+  color: #666;
+}

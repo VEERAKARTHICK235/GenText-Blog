@@ -1,0 +1,48 @@
+.blog-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: var(--bg);
+  color: var(--text);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.blog-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-actions {
+  margin-top: 12px;
+}
+
+.blog-comment {
+  margin-top: 12px;
+  padding-left: 10px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 60px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.like-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}

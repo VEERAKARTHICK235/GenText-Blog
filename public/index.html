@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <!-- ... your existing head content ... -->
+    <title> GenText Blog</title>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- 🔐 Disable Right Click & Dev Tools -->
+    <script>
+      // Disable right-click
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+      });
+
+      // Disable common shortcut keys for viewing source and developer tools
+      document.addEventListener("keydown", function (e) {
+        // F12
+        if (e.keyCode === 123) {
+          e.preventDefault();
+        }
+
+        // Ctrl+Shift+I or Ctrl+Shift+J
+        if ((e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74))) {
+          e.preventDefault();
+        }
+
+        // Ctrl+U
+        if (e.ctrlKey && e.keyCode === 85) {
+          e.preventDefault();
+        }
+
+        // Ctrl+Shift+C (Element picker)
+        if (e.ctrlKey && e.shiftKey && e.keyCode === 67) {
+          e.preventDefault();
+        }
+      });
+    </script>
+  </body>
+</html>
